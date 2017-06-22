@@ -1,0 +1,78 @@
+body {
+    font-family: "Noto Serif", serif;
+    color: #333;
+    box-sizing: border-box; /*peligro, acabo de añadir esto puede ocasionar errores*/
+}
+
+header {
+    font-weight: bold; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: #4d4e53;
+}
+
+nav li {
+    list-style: none;
+    border:1px solid;
+    width: 200px;
+    padding: 2px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+nav ul {
+    padding: 0%;
+}
+
+#introduction {
+  
+    background-color: #EAEEF3;
+    padding: 1%;
+    /*border: 1px solid grey;*/
+     
+}
+
+section {
+    margin-top: 3vw;
+}
+
+
+
+@media  (min-width: 900px) {
+
+    
+
+    body {
+        background-color: #EAEEF3;
+    }
+
+
+    nav {
+        text-align: left;
+        padding: 1%;
+        max-width: 20vw;
+        position: fixed;
+        overflow-y: hidden;
+    }
+
+    nav header {
+        padding: 5px;
+        
+    }
+
+    
+
+    main {
+        margin-left: 21%;
+        background-color: white;
+        padding: 5%;
+    }
+
+    
+
+
+    
+}   
